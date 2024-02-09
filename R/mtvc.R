@@ -2,7 +2,7 @@
 #'
 #' Restructure dataset into counting process format to model time varying variables
 #' @param data Dataframe to be restructured. Has to be in wide format, with a line for each individual.
-#' @param dates Name of the columns that contains dates that point out when the variables of interest change value.
+#' @param dates Name of the columns that contain dates that point out when the variables of interest change value.
 #' If an individual does not experience the event of interest, then the respective date should
 #' be either a missing value or the origin date.
 #' @param complications Name of the columns that contain values of time varying covariates.

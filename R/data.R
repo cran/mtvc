@@ -3,13 +3,12 @@
 #' a specific time point. In particular, are referred to Graft Versus Host Disease,
 #' both Acute and Chronic, and relapse, which is the recurrence of the disease. In addition,
 #' this data frame contains specific dates, that refer to the first and last visit of the patient,
-#' and the respective dates of each time varying covariate, day from which that
-#' variable will change its value.
+#' and the respective dates of each time varying variable, day from which that
+#' factor will change its value.
 #'
 #'
-#' @format A data frame with...
-#' @format ## `simwide`
-#' A data frame with 80 rows and 577 columns:
+#' @format `simwide`
+#' A data frame with 47 rows and 12 columns:
 #' \describe{
 #'   \item{EVENT}{Binary variable that indicates if the individual has experienced the event of interest.}
 #'   \item{DATETRAN}{Date that points out when follow-ip starts.}

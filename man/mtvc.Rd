@@ -9,7 +9,7 @@ mtvc(data, dates, origin = "1970-01-01", start, stop, event, complications)
 \arguments{
 \item{data}{Dataframe to be restructured. Has to be in wide format, with a line for each individual.}
 
-\item{dates}{Name of the columns that contains dates that point out when the variables of interest change value.
+\item{dates}{Name of the columns that contain dates that point out when the variables of interest change value.
 If an individual does not experience the event of interest, then the respective date should
 be either a missing value or the origin date.}
 
